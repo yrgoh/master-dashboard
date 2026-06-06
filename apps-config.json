@@ -1,0 +1,48 @@
+[
+  {
+    "id": "battle-map",
+    "name": "WWII Battle Map",
+    "description": "Interactive Leaflet map with animated unit positions and ORBAT viewer",
+    "techStack": ["React", "Express", "Leaflet", "SQLite"],
+    "icon": "map",
+    "path": "C:\\Users\\gohyi\\.claude\\skills",
+    "frontendUrl": "http://localhost:5174",
+    "backendUrl": "http://localhost:3002",
+    "frontendPort": 5174,
+    "backendPort": 3002,
+    "commands": {
+      "backend": {
+        "cmd": "npx",
+        "args": ["tsx", "server/index.ts"],
+        "env": { "PORT": "3002" }
+      },
+      "frontend": {
+        "cmd": "npx",
+        "args": ["vite", "--port", "5174", "--strictPort"]
+      }
+    }
+  },
+  {
+    "id": "s-reit-dashboard",
+    "name": "S-REIT Dashboard",
+    "description": "Singapore REIT financial analysis dashboard with P/B bands and DPU charts",
+    "techStack": ["React", "Express", "Recharts", "SQLite"],
+    "icon": "chart",
+    "path": "C:\\Users\\gohyi\\.claude\\skills\\s-reit-dashboard",
+    "frontendUrl": "http://localhost:5175",
+    "backendUrl": "http://localhost:3003",
+    "frontendPort": 5175,
+    "backendPort": 3003,
+    "commands": {
+      "backend": {
+        "cmd": "npx",
+        "args": ["tsx", "server/index.ts"],
+        "env": { "PORT": "3003" }
+      },
+      "frontend": {
+        "cmd": "npx",
+        "args": ["vite", "--port", "5175", "--strictPort"]
+      }
+    }
+  }
+]
